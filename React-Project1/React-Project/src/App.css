@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.fImage div {
+  width: 89%;
+  height: 150px;
+}
+.fImage div img {
+  width: 100%;
+  height: 100%;
+}
+.navbar1 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 500px;
+}
+.navbar1 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  top: -30px;
+}
+.navbar-left {
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+}
+.navbar-left-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: 5px;
+}
+.navbar-left-sub p {
+  font-size: 13px;
+}
+.navbar-left-sub .bi-check {
+  background-color: rgb(7, 190, 190);
+  border-radius: 50%;
+  color: white;
+  padding: 0px 2px;
+  font-size: 14px;
+}
+.navbar-left-btn {
+  margin-top: 20px;
+}
+.navbar-left-btn button {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 255, 255, 0.342);
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: rgb(1, 39, 39);
+}
+.form-div1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+label {
+  font-size: 13px;
+}
+.form-div1 input {
+  width: 348px;
+  height: 35px;
+  margin-top: 4px;
+  font-size: 13px;
+}
+.card-body input {
+  font-size: 13px;
+}
+.card-btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.card-btn button {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  background-color: transparent;
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+.card-btn #save {
+  background-color: rgb(6, 78, 233);
+  color: white;
+}
+.card-body ul {
+  font-size: 14px;
+}
+.card-btn #delete {
+  background-color: red;
+  color: white;
+}
+
+.google {
+  display: flex;
+  gap: 10px;
+  border: 1px solid lightgreen;
+  padding: 5px 10px;
+  background-color: rgba(144, 238, 144, 0.189);
+}
+.google h6 {
+  font-size: 13px;
+}
+.google p {
+  font-size: 13px;
+}
+.facebook {
+  display: flex;
+  gap: 10px;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+}
+.facebook .bi-facebook {
+  color: blue;
+}
+.facebook h6 {
+  font-size: 13px;
+}
+.facebook p {
+  font-size: 13px;
+}
+
+.instagram {
+  display: flex;
+  gap: 10px;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+}
+.instagram .bi-instagram {
+  color: purple;
+}
+.instagram h6 {
+  font-size: 13px;
+}
+.instagram p {
+  font-size: 13px;
+}
