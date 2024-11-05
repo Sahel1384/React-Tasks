@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  gap: 15px;
+}
+.main-1 {
+  background-image: url("/images/pexels-kamran-shah-films-793661-24377021.jpg");
+  width: 370px;
+  height: 350px;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 0px 10px 10px 20px;
+  gap: 10px;
+  object-fit: cover;
+}
+
+.main-1 span {
+  background-color: red;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.main-1 h3 {
+  font-size: 27px;
+}
+.main-1 p {
+  font-size: 11px;
+  width: 340px;
+}
+.main-1-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+}
+.main-1-sub img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.main-1-sub .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.main-2-sub {
+  background-image: url("/images/rawpixel-384899-unsplash.jpg");
+  width: 400px;
+  height: 150px;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 0px 10px 10px 20px;
+  gap: 10px;
+}
+.main-2 span {
+  background-color: goldenrod;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.main-3-sub .one {
+  background-image: url("/images/persona_mask-1.jpg");
+  width: 195px;
+  height: 182px;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 0px 10px 10px 20px;
+  gap: 10px;
+}
+.main-3-sub .one span {
+  background-color: rgb(127, 200, 240);
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.main-3-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-3-sub .two {
+  background-image: url("/images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  width: 195px;
+  height: 182px;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 0px 10px 10px 20px;
+  gap: 10px;
+}
+.main-3-sub .two span {
+  background-color: rgb(4, 119, 31);
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 801px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .main-1 {
+    width: 100%;
+  }
+  .main-2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-2-sub {
+    height: 182px;
+  }
+}
+@media (max-width: 700px) {
+  .main-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-2-sub {
+    width: 100%;
+  }
+  .main-3-sub {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-3-sub .one {
+    width: 100%;
+  }
+  .main-3-sub .two {
+    width: 100%;
+  }
+}
+
+.main-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card1 {
+  width: 257px;
+  height: 280px;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  transition: all 0.3s;
+}
+.card1:hover {
+  box-shadow: 0px 0px 10px rgb(75, 75, 75);
+}
+.card1 img {
+  width: 256px;
+  height: 180px;
+  border-radius: 8px 8px 0px 0px;
+}
+.card1 h4 {
+  font-size: 15px;
+  margin-left: 20px;
+}
+.card1 #span1 {
+  font-size: 13px;
+  margin-left: 20px;
+}
+.card1 #span2 {
+  font-size: 13px;
+  margin-left: 5px;
+  color: green;
+}
+.card1 button {
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  color: purple;
+  margin-left: 20px;
+}
+.card1 button i {
+  font-size: 11px;
+  margin-left: 10px;
+}
