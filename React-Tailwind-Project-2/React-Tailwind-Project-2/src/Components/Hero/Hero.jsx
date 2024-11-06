@@ -29,7 +29,7 @@ function Hero() {
           </div>
         </div>
         <div className="max-w-lg h-screen mx-auto mt-5 lg:mt-0">
-          <img src={svg1} className="w-full h-auto" alt="" />
+          <img src={svg1} className="w-full h-screen" alt="" />
         </div>
       </div>
     </div>

@@ -163,19 +163,29 @@ function Footer() {
         <div className="max-w-sm flex flex-col gap-5">
           <h1 className="text-xl font-semibold">Quick Links</h1>
           <ul className="text-gray-400 flex flex-col gap-3">
-            <li>Our Blog</li>
-            <li>Checking Pricing</li>
-            <li>About Us</li>
-            <li>Help & Support</li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">Our Blog</li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">
+              Checking Pricing
+            </li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">About Us</li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">
+              Help & Support
+            </li>
           </ul>
         </div>
         <div className="max-w-sm flex flex-col gap-5">
           <h1 className="text-xl font-semibold">App Information</h1>
           <ul className="text-gray-400 flex flex-col gap-3">
-            <li>Style Guideline</li>
-            <li>Getting Started</li>
-            <li>Changelog</li>
-            <li>Update Details</li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">
+              Style Guideline
+            </li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">
+              Getting Started
+            </li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">Changelog</li>
+            <li className="hover:text-[#8b5cf6] cursor-pointer">
+              Update Details
+            </li>
           </ul>
         </div>
         <div className="max-w-[300px] flex flex-col sm:flex-col gap-5">

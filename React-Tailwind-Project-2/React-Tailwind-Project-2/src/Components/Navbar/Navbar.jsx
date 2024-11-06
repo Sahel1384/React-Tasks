@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaAlignJustify, FaMoon } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 // import one from "../../assets/images/night-mode.png";
 
 function Navbar() {
@@ -95,16 +96,30 @@ function Navbar() {
         >
           <ul className="flex flex-col gap-4 right-0 text-sm absolute top-0 rounded-lg font-normal bg-white shadow-xl w-52 px-5 py-2 text-gray-400">
             <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
-              Blog Grid Page
+              <NavLink
+                to="blog1"
+                className={({ isActive }) =>
+                  `${isActive ? "text-[#8b5cf6]" : "text-gray-400"}`
+                }
+              >
+                Blog Grid Page
+              </NavLink>
             </li>
             <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
-              Blog Details Page
+              <NavLink
+                to="blog2"
+                className={({ isActive }) =>
+                  `${isActive ? "text-[#8b5cf6]" : "text-gray-400"}`
+                }
+              >
+                Blog Details Page
+              </NavLink>
             </li>
           </ul>
         </div>
       </div>
-      <div className="flex gap-2 justify-center items-center">
-        <button className="hidden sm:block bg-[#8b5cf6] text-white py-[15px] px-[25px] font-semibold rounded-lg hover:shadow-sm hover:shadow-[#8b5cf6]">
+      <div className="flex gap-4 justify-center items-center">
+        <button className="hidden sm:block bg-[#8b5cf6] text-white py-2 px-4 lg:py-[15px] lg:px-[25px] font-semibold rounded-lg hover:shadow-sm hover:shadow-[#8b5cf6]">
           Download
         </button>
         {/* <img src={one} className="text-black w-8 h-7 hidden sm:block" alt="" /> */}
